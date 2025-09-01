@@ -8,23 +8,36 @@ const Signup = () => {
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
   const [error, setError] = useState("");
+  const [loading, setLoading] = useState(false);
 
   const navigate = useNavigate();
 
-  const handleSignup = async (e) => {
-    e.preventDefault();
-    try {
-      const res = await axios.post("http://localhost:3002/api/auth/signup", {
-        email,
-        username,
-        password,
-      });
-      alert(res.data.message);
-      window.location.href = "http://localhost:3000/"; // ✅ correct
-    } catch (err) {
-      setError(err.response?.data?.message || "Something went wrong");
-    }
-  };
+const handleSignup = async (e) => {
+  e.preventDefault();
+  setLoading(true);
+  try {
+    const res = await axios.post("http://localhost:3002/api/auth/signup", {
+      email,
+      username,
+      password,
+    });
+    alert(res.data.message);
+
+    // Clear form
+    setEmail("");
+    setUsername("");
+    setPassword("");
+    setError("");
+
+    // Redirect to homepage at a different URL
+    window.location.href = "http://localhost:3001/";
+  } catch (err) {
+    setError(err.response?.data?.message || "Something went wrong");
+  } finally {
+    setLoading(false);
+  }
+};
+
 
   return (
     <div className="auth-page">

@@ -1,6 +1,13 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
 function Universe() {
+  const navigate = useNavigate();
+
+  const handleSignupClick = () => {
+    navigate("/signup"); // navigate to Signup page
+  };
+
   return (
     <div
       className="container text-muted mt-5"
@@ -22,6 +29,7 @@ function Universe() {
           partner platforms
         </p>
 
+        {/* Partner cards */}
         <div className="col-4 p-3 text-center">
           <img
             src="/media/picture/zerodhaFundhouse.png"
@@ -112,6 +120,8 @@ function Universe() {
           </p>
         </div>
       </div>
+
+      {/* Signup button */}
       <section
         style={{
           padding: "40px 0 80px",
@@ -126,6 +136,7 @@ function Universe() {
               padding: "10px 30px",
               margin: "20px 0 0",
             }}
+            onClick={handleSignupClick}
           >
             Sign up for free
           </button>
