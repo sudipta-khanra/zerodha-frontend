@@ -1,0 +1,43 @@
+SUDIPTA@DESKTOP-S7BLCP9 MINGW64 ~/Z
+$ cd frontend/
+
+SUDIPTA@DESKTOP-S7BLCP9 MINGW64 ~/Z$ git init
+Reinitialized existing Git repositoHA CLONE/frontend/.git/
+
+SUDIPTA@DESKTOP-S7BLCP9 MINGW64 ~/Z$ git add .
+warning: in the working copy of 'pu replaced by CRLF the next time Git
+warning: in the working copy of 'sraced by CRLF the next time Git touc
+
+SUDIPTA@DESKTOP-S7BLCP9 MINGW64 ~/Z$ git commit -m "initial setup"
+[main 1446f46] initial setup
+ 12 files changed, 6 insertions(+),
+ delete mode 100644 README.md
+ delete mode 100644 public/favicon.
+ delete mode 100644 public/logo192.
+ delete mode 100644 public/logo512.
+ delete mode 100644 src/App.css
+ delete mode 100644 src/App.js
+ delete mode 100644 src/App.test.js
+ delete mode 100644 src/logo.svg
+ delete mode 100644 src/reportWebVi
+ delete mode 100644 src/setupTests.
+
+SUDIPTA@DESKTOP-S7BLCP9 MINGW64 ~/Z$ git checkout -b project-structure
+$ git checkout -b project-structure
+$ git checkout -b project-structure
+$ git checkout -b project-structure
+$ git checkout -b project-structure
+$ git checkout -b project-structure
+$ git checkout -b project-structure
+$ git checkout -b project-structure
+Switched to a new branch 'project-s$ git checkout -b project-structure
+Switched to a new branch 'project-s$ git checkout -b project-structure
+Switched to a new branch 'project-s$ git checkout -b project-structure
+Switched to a new branch 'project-s$ git checkout -b project-structure
+Switched to a new branch 'project-sSwitched to a new branch 'project-sture
+Switched to a new branch 'project-structur
+e'                              ~/Z
+Switched to a new branch 'project-strucDESKTOP-S7BLCP9 MINGW64e)ture'
+structure'
+
+structure'

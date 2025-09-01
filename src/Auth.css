@@ -1,0 +1,90 @@
+/* Center the card */
+.auth-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #f0f2f5, #e6ebf1);
+  font-family: "Poppins", sans-serif;
+}
+
+/* Card styling */
+.auth-card {
+  background: #ffffff;
+  padding: 2.5rem 3rem;
+  border-radius: 15px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+  width: 380px;
+  max-width: 90%;
+  text-align: center;
+  transition: transform 0.2s ease;
+}
+
+.auth-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Title */
+.auth-card h2 {
+  margin-bottom: 1.5rem;
+  font-size: 1.8rem;
+  color: #1c1c1c;
+}
+
+/* Input fields */
+.auth-card input {
+  width: 100%;
+  padding: 0.8rem 1rem;
+  margin-bottom: 1rem;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  outline: none;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+}
+
+.auth-card input:focus {
+  border-color: #ff3d00;
+}
+
+/* Buttons */
+.auth-btn {
+  width: 100%;
+  padding: 0.8rem;
+  background-color: #ff3d00;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  font-size: 1.05rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.auth-btn:hover {
+  background-color: #e63600;
+}
+
+/* Error message */
+.auth-error {
+  color: #ff3d00;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+/* Footer link */
+.auth-footer {
+  margin-top: 1rem;
+  font-size: 0.95rem;
+  color: #555;
+}
+
+.auth-footer a {
+  color: #ff3d00;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.auth-footer a:hover {
+  text-decoration: underline;
+}

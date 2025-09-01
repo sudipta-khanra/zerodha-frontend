@@ -11,3 +11,120 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.nav-link {
+  margin-left: 35px;
+}
+a{
+  text-decoration: none;
+}
+
+.footer_links {
+  list-style-type: none;  
+  padding: 0;           
+  margin: 0;              
+  display: flex;          
+  gap: 20px;              
+  
+}
+
+.footer_links li {
+  margin: 0;             
+  color: #9B9B9B;
+  font-size: 13.5px !important;
+  font-weight: 600;
+  
+} 
+
+.footer_links li a {
+  text-decoration: none;  
+  color: inherit;         
+  
+}
+.account-links a,
+.support-links a,
+.company-links a {
+  color: #6c757d;
+  font-weight: 500;
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+  margin-bottom: 35px;
+  line-height: 2;
+}
+
+a:hover {
+   color:#387ED1 ;
+}
+.footer_links li a:hover {
+  color:#387ED1 ;
+}
+.ticket_ul a {
+  line-height:2;
+}
+#support_hero {
+  background-color: #387ED1;
+  color: white;
+}
+#supportWrapper {
+  display: flex;
+  justify-content: space-between;
+}
+#support_hero a {
+  color: white;
+  font-size: 18.5px;
+  text-decoration: underline;
+  text-underline-offset: 12px;
+  text-decoration-thickness: 1px;
+  margin-right: 15px;
+  line-height: 2.1;
+}
+.input-wrapper input {
+  padding: 20px  40px !important ;
+  width: 95%;
+  border-radius: 5px;
+  border: none;           /* Removes the black border */
+  outline: none;          /* Removes the blue/black border on click/focus */
+  box-shadow: none;
+}
+
+
+#support_hero h3 {
+  margin-left: 10px;
+
+}
+.input-wrapper {
+  width: 100%;
+  max-width: 600px;
+  min-width: 300px;
+  position: relative;
+}
+
+.input-field {
+  width: 100%;
+  padding: 20px 60px 20px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  box-shadow: none;
+}
+
+.search-icon {
+  position: absolute;
+  right: 40px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 24px;
+  height: 24px;
+  pointer-events: none;
+}
+.createticicon a {
+  color: #387ED1;
+}
+
+.createticicon a:hover {
+  color: 	#6c757d;
+}
+
+.createticicon a {
+ font-size: 14.4px;
+}
